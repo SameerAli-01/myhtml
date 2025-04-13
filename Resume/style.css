@@ -1,0 +1,12 @@
+.social-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+}
+.icon-what{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
