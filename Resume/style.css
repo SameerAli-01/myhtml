@@ -1,12 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: gray;
+}
+.main-heading{
+    text-align: center;
+    text-decoration: underline;
+    /* text-decoration: none; */
+}
+.image{
+    height: 150px;
+    width: auto;
+    display: flex;
+    justify-content: end;
+}
+
+#container{
+    display: flex;
+    gap: 10px;
+    /* position: relative;
+    bottom: 10px; */
+} 
+
+/* .social-icon{
+    height: 100px;
+    width: 100px;
+    background-color: aqua; 
+}*/
+
 .social-icon{
     height: 70px;
     width: 70px;
     border-radius: 50%;
     display: inline-block;
-    background-color: red;
+    /* background-color: red; */
 }
-.icon-what{
+
+.icon{
+    border-radius: 10px;
     position: relative;
     left: 10px;
     top: 10px;
-}
+    width: 50px;
+} 
