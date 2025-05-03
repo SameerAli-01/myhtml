@@ -3,39 +3,75 @@
     margin: 0;
     font-family: sans-serif;
     line-height: 1.5;
-    background-color: gray;
 }
 .main-heading{
     text-align: center;
     text-decoration: underline;
-    /* text-decoration: none; */
+    font-weight: bold;
+    font-size: 36px;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 .image{
     height: 150px;
     width: auto;
     display: flex;
     justify-content: end;
+    margin-right: 20px;
 }
 
-#container{
+.my-info{
+    margin-left: 10px;
+    font-family: serif;
+}
+
+.name{
+    font-size: 30px;
+    color: black;
+}
+
+.phone-num{
+    color: black;
+}
+.phone-num a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+.email-id{
+    color: black;
+}
+.email-id a{
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+    color: blueviolet;
+}
+.address{
+    color: blueviolet;
+    font-weight: bold;
+}
+.address b{
+    color: black;
+}
+
+
+
+#container-icon{
     display: flex;
     gap: 10px;
-    /* position: relative;
-    bottom: 10px; */
 } 
 
-/* .social-icon{
-    height: 100px;
-    width: 100px;
-    background-color: aqua; 
-}*/
-
 .social-icon{
-    height: 70px;
-    width: 70px;
+    mix-blend-mode: color-dodge;
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
     display: inline-block;
-    /* background-color: red; */
+}
+
+.social-icon:hover{
+    height: 80px;
+    width: 80px;
 }
 
 .icon{
@@ -44,4 +80,5 @@
     left: 10px;
     top: 10px;
     width: 50px;
+    max-inline-size: 60%;
 } 
