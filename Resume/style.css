@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    line-height: 1.5;
+    /* line-height: 1.5; */
 }
-.main-heading{
+
+/* header style open */
+.header h1{
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
@@ -20,7 +22,7 @@
 }
 
 .my-info{
-    margin-left: 10px;
+    margin-left: 20px;
     font-family: serif;
 }
 
@@ -32,53 +34,188 @@
 .phone-num{
     color: black;
 }
+
 .phone-num a{
     text-decoration: none;
     font-weight: bold;
-    color: blueviolet;
+    color: black;
 }
+
 .email-id{
     color: black;
 }
+
 .email-id a{
     font-style: italic;
     text-decoration: none;
     font-weight: bold;
-    color: blueviolet;
-}
-.address{
-    color: blueviolet;
-    font-weight: bold;
-}
-.address b{
     color: black;
 }
+.address{
+    color: black;
+    font-weight: bold;
+}
+/* header style close */
 
+/* main style open */
+/* objective intro section style */
+.objective-intro{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.objective-intro h3{
+    color: black;
+    font-weight: 900;
+}
+.objective-intro p{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
 
+/* Education section style */
+.education-intro{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.education-intro h3{
+    color: black;
+    font-weight: 900;
+}
+.education-intro ul{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.education-intro ul li{
+    list-style: none;
+}
 
-#container-icon{
-    display: flex;
-    gap: 10px;
-} 
+/* certificat section style */
+.certificat-section{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
 
+.certificat-section h3{
+    color: black;
+    font-weight: 900;
+}
+
+.certificat-section ul{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.certificat-section ul li{
+    list-style: none;
+}
+
+/* skill section styling */
+.skill-section{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.skill-section h3{
+    color: black;
+    font-weight: 900;
+}
+.skill-section ul{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.skill-section ul li{
+    list-style: none;
+}
+
+/* hobbies section style */
+.hobbie-section{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.hobbie-section h3{
+    color: black;
+    font-weight: 900;
+}
+.hobbie-section ul{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.hobbie-section ul li{
+    list-style: none;
+}
+
+/* language section style */
+.language-section{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.language-section h3{
+    color: black;
+    font-weight: 900;
+}
+.language-section ul{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.language-section ul li{
+    list-style: none;
+}
+
+/* personal details section style */
+.detail-section{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.detail-section h3{
+    color: black;
+    font-weight: 900;
+}
+.detail-section ul{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.detail-section ul li{
+    list-style: none;
+}
+
+/* social media icon */
 .social-icon{
-    mix-blend-mode: color-dodge;
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
-
-.social-icon:hover{
-    height: 80px;
-    width: 80px;
+.social-icon h3{
+    color: black;
+    font-weight: 900;
 }
+.container-icon{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-icon i{
+    font-size: 50px;
 
-.icon{
-    border-radius: 10px;
-    position: relative;
-    left: 10px;
-    top: 10px;
-    width: 50px;
-    max-inline-size: 60%;
-} 
+}
+/* main style close */
+
+/* declertion section style */
+.foot{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.foot h3{
+    color: black;
+    font-weight: 900;
+}
+.foot p{
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
